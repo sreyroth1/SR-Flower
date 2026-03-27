@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SR Flower Shop</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <!-- Logo -->
+        <div class="logo">
+          <div class="mini-logo">
+            <span>SR</span>
+          </div>
+          <span>SR Flowers</span>
+        </div>
+
+        <!-- Center Navigation -->
+        <nav class="nav-links">
+          <a href="index.html" class="nav-item active">Home</a>
+          <div class="nav-item dropdown">
+            <a href="#"> Shop <i class="fa-solid fa-chevron-down"></i> </a>
+            <div class="dropdown-menu">
+              <a href="./Pages/roses.html">Roses</a>
+              <a href="./Pages/tulips.html">Tulips</a>
+              <a href="./Pages/lities.html">Lilies</a>
+              <a href="./Pages/sunflowers.html">Sunflowers</a>
+              <a href="./Pages/orchids.html">Orchids</a>
+              <a href="./Pages/bouquets.html">Bouquets</a>
+            </div>
+          </div>
+          <a href="./Pages/about.html" class="nav-item">About</a>
+          <a href="./Pages/contact.html" class="nav-item">Contact</a>
+          <a href="./Pages/delivery.html" class="nav-item">Delivery</a>
+        </nav>
+
+        <!-- Right Side -->
+        <div class="header-right">
+          <!-- Search Bar -->
+          <div class="search-bar">
+            <input type="text" placeholder="Search Flowers" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+
+          <!-- Account -->
+          <a href="#" class="header-icon">
+            <i class="fa-regular fa-user"></i>
+            <span>Account</span>
+          </a>
+
+          <!-- Cart -->
+          <a href="#" class="header-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-heading">Fresh Flowers for Every Occasion</h1>
+          <button class="hero-btn">Buy Now</button>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=500&h=500&fit=crop"
+            alt="Beautiful Flowers"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="products-section">
+      <div class="section-header">
+        <h2 class="section-title">Fresh Flowers For You!</h2>
+      </div>
+
+      <!-- ============================================
+             PRODUCT GRID
+        ============================================= -->
+      <div class="product-grid">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="Images/homeImages/pexels-cottonbro-4499854.jpg"
+              alt="Bouquet"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Red Roses Bouquet</h3>
+            <p class="product-desc">Beautiful red roses arrangement</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(4.5)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$299.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="Images/homeImages/pexels-narince-329101849-13832352.jpg"
+              alt="Flowers"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Tulip Collection</h3>
+            <p class="product-desc">Fresh colorful tulips</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$329.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="Images/homeImages/pexels-sevde-sozer-337915290-29550202.jpg"
+              alt="Roses"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Sunflower Bundle</h3>
+            <p class="product-desc">Bright sunny sunflowers</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$549.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-alleksana-4523891.jpg"
+              alt="Headphones 4"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Orchid Plant</h3>
+            <p class="product-desc">Elegant purple orchid</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$149.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 5 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-cottonbro-4499854.jpg"
+              alt="Headphones 5"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Lily Arrangement</h3>
+            <p class="product-desc">Fragrant white lilies</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(3.5)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$129.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 6 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-jean-paul-wright-39375669-14989764.jpg"
+              alt="Headphones 6"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Mixed Bouquet</h3>
+            <p class="product-desc">Seasonal flower mix</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$349.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 7 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-maria-mileta-3563033-15866930 (1).jpg"
+              alt="Headphones 7"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Daisy Pack</h3>
+            <p class="product-desc">Cheerful daisies bunch</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$79.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 8 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-jean-paul-wright-39375669-8060470.jpg"
+              alt="Headphones 8"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Carnations</h3>
+            <p class="product-desc">Colorful carnation flowers</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(4.5)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$169.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 9 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-narince-329101849-13832352.jpg"
+              alt="Headphones 9"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Gerbera Arrangement</h3>
+            <p class="product-desc">Vibrant gerbera daisies</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$379.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 10 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-rebecca-1637573-5566042.jpg"
+              alt="Headphones 10"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Peony Bouquet</h3>
+            <p class="product-desc">Luxurious peony flowers</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$299.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 11 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-sevde-sozer-337915290-29550202.jpg"
+              alt="Headphones 11"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Hydrangea Set</h3>
+            <p class="product-desc">Beautiful hydrangea blooms</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(3.5)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$149.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 12 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-narince-329101849-13832352.jpg"
+              alt="Headphones 12"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Freesia Bundle</h3>
+            <p class="product-desc">Fragrant freesia flowers</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$179.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 13 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-sulav-jung-hamal-742656-12433185.jpg"
+              alt="Headphones 13"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Iris Flowers</h3>
+            <p class="product-desc">Elegant iris arrangement</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(4.5)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$219.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 14 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-steph-quernemoen-1753277641-36187526.jpg"
+              alt="Headphones 14"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Chrysanthemum</h3>
+            <p class="product-desc">Beautiful mums arrangement</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(3.5)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$69.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 15 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-rebecca-1637573-5566042.jpg"
+              alt="Headphones 15"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Alstroemeria</h3>
+            <p class="product-desc">Peruvian lily bouquet</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$159.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 16 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span class="wishlist-btn"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+            <img
+              src="./Images/homeImages/pexels-slavomir-vilnis-748418864-31154923.jpg"
+              alt="Headphones 16"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Garden Roses</h3>
+            <p class="product-desc">Premium garden roses</p>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">$399.00</span>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
